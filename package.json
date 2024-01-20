@@ -1,0 +1,22 @@
+{
+  "name": "seed_prisma",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "seed": "bun run prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "bun run prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.3.1",
+    "@prisma/client": "5.8.1",
+    "prisma": "^5.8.1"
+  }
+}
